@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.deepexi</groupId>
+        <artifactId>springcloud-center-modules</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.deepexi</groupId>
+    <artifactId>cloud-service</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>cloud-service-api</module>
+        <module>cloud-service-provider</module>
+    </modules>
+
+    <repositories>
+        <repository>
+            <id>deepexi-central</id>
+            <name>public Repository</name>
+            <url>http://nexus.deepexi.top/repository/maven-public/</url>
+        </repository>
+    </repositories>
+</project>
